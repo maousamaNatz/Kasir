@@ -26,14 +26,13 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name', 'email', 'password', 'current_team_id', 'profile_photo_url',
+        'name',
+        'email',
+        'password',
+        'role', // Tambahan Anda
+        'profile_photo_path', // Pastikan ini ada di fillable
     ];
 
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array<int, string>
-     */
     protected $hidden = [
         'password',
         'remember_token',
@@ -41,13 +40,12 @@ class User extends Authenticatable
         'two_factor_secret',
     ];
 
-    /**
-     * The accessors to append to the model's array form.
-     *
-     * @var array<int, string>
-     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+    ];
+
     protected $appends = [
-        'profile_photo_url',
+        'profile_photo_url', // Ditambahkan oleh HasProfilePhoto
     ];
 
     /**
