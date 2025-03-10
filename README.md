@@ -139,17 +139,6 @@ Kami menyambut kontribusi dari siapa saja! Untuk berkontribusi:
 
 Silakan baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk detail lebih lanjut.
 
-## 🔐 Keamanan
-
-Jika Anda menemukan celah keamanan, harap hubungi kami di **security@kasirorb.com** sebelum mengungkapkannya secara publik.
-
 ## 📄 Lisensi
 
 **KasirOrb** dilisensikan di bawah [MIT License](LICENSE.md). Anda bebas menggunakan, memodifikasi, dan mendistribusikan aplikasi ini sesuai ketentuan lisensi.
-
----
-
-### Penjelasan Tambahan
-- **Fitur Kasir**: Saya menambahkan fitur seperti scan barcode, manajemen stok, dan integrasi pembayaran yang relevan untuk kasir modern.
-- **Teknis**: Instruksi instalasi diperjelas agar pengguna awam bisa mengikuti.
-- **Fleksibilitas**: Dukungan multi-bahasa, mata uang, dan integrasi API menjadikan aplikasi ini lebih universal.
